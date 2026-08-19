@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-08-17T12:20:30 IST" name="LoginSuite" finished-at="2026-08-17T12:20:34 IST" duration-ms="4364">
+    <groups>
+    </groups>
+    <test started-at="2026-08-17T12:20:30 IST" name="LonginTest" finished-at="2026-08-17T12:20:34 IST" duration-ms="4364">
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@799f10e1]" started-at="2026-08-17T12:20:30 IST" name="setup" finished-at="2026-08-17T12:20:32 IST" duration-ms="2117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testlongin()[pri:0, instance:test.LoginTest@799f10e1]" started-at="2026-08-17T12:20:32 IST" name="testlongin" finished-at="2026-08-17T12:20:34 IST" duration-ms="1880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlongin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@799f10e1]" started-at="2026-08-17T12:20:34 IST" name="tearDown" finished-at="2026-08-17T12:20:34 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- LonginTest -->
+  </suite> <!-- LoginSuite -->
+</testng-results>
