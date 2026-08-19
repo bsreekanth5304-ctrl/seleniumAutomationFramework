@@ -1,25 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-17T12:20:30 IST" name="LoginSuite" finished-at="2026-08-17T12:20:34 IST" duration-ms="4364">
+  <suite started-at="2026-08-20T01:07:56 IST" name="Default suite" finished-at="2026-08-20T01:08:00 IST" duration-ms="3229">
     <groups>
     </groups>
-    <test started-at="2026-08-17T12:20:30 IST" name="LonginTest" finished-at="2026-08-17T12:20:34 IST" duration-ms="4364">
+    <test started-at="2026-08-20T01:07:56 IST" name="Default test" finished-at="2026-08-20T01:08:00 IST" duration-ms="3229">
       <class name="test.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@799f10e1]" started-at="2026-08-17T12:20:30 IST" name="setup" finished-at="2026-08-17T12:20:32 IST" duration-ms="2117" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@55182842]" started-at="2026-08-20T01:07:56 IST" name="setup" finished-at="2026-08-20T01:07:59 IST" duration-ms="2791" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testlongin()[pri:0, instance:test.LoginTest@799f10e1]" started-at="2026-08-17T12:20:32 IST" name="testlongin" finished-at="2026-08-17T12:20:34 IST" duration-ms="1880" status="PASS">
+        <test-method signature="testlongin()[pri:0, instance:test.LoginTest@55182842]" started-at="2026-08-20T01:07:59 IST" name="testlongin" finished-at="2026-08-20T01:07:59 IST" duration-ms="17" status="FAIL">
+          <exception class="java.lang.IllegalAccessError">
+            <message>
+              <![CDATA[class test.LoginTest (in unnamed module @0x1eb44e46) cannot access class jdk.internal.org.jline.utils.Log (in module jdk.internal.le) because module jdk.internal.le does not export jdk.internal.org.jline.utils to unnamed module @0x1eb44e46]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalAccessError: class test.LoginTest (in unnamed module @0x1eb44e46) cannot access class jdk.internal.org.jline.utils.Log (in module jdk.internal.le) because module jdk.internal.le does not export jdk.internal.org.jline.utils to unnamed module @0x1eb44e46
+at test.LoginTest.testlongin(LoginTest.java:14)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalAccessError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testlongin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@799f10e1]" started-at="2026-08-17T12:20:34 IST" name="tearDown" finished-at="2026-08-17T12:20:34 IST" duration-ms="329" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@55182842]" started-at="2026-08-20T01:07:59 IST" name="tearDown" finished-at="2026-08-20T01:08:00 IST" duration-ms="370" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.LoginTest -->
-    </test> <!-- LonginTest -->
-  </suite> <!-- LoginSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
